@@ -1,0 +1,44 @@
+/*  背景色　　＃f5d9d5 */
+
+body{
+    background-color: #f5d9d5;
+    font-family: Nunito,sans-serif;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+    color: #ea1c2c;
+}
+.navbar .navbar-brand:hover{
+    font-size: 1.5rem;
+    color: #ea1c2c;
+}
+
+.nav-item{
+    color: white;
+    padding: 8px;
+}
+.nav-item:hover{
+    color: #ea1c2c;
+    
+}
+
+#headingGroup h2{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+#headingGroup span{
+    color: #ea1c2c;
+}
+
+@media(max-width:1200px){
+    #headingGroup h2{
+        font-size: 3rem;
+    }
+}
